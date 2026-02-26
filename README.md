@@ -18,13 +18,11 @@ If you like the wgBlocks module and thanks to the long process for giving the op
 [![Gem](https://img.shields.io/gem/dt/rails.svg)](XoopsModules25x/wgblocks)
 [![Latest Version](https://img.shields.io/github/release/XoopsModules25x/wgblocks.svg?style=flat)](https://github.com/XoopsModules25x/wgsitenotice/releases/latest)
 
-# Require:
+# Requirements:
 - XOOPS 2.5.12;
 - XOOPS Admin 1.2;
 - PHP 8.4 or higher
 - MySQL 5.7.8 or higher, 8.4.5+ recommended
-
-
 
 #### Tutorial:
 No additional tutorial necessary. See module help.
