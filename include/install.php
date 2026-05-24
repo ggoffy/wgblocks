@@ -37,13 +37,6 @@ function xoops_module_pre_install_wgblocks(\XoopsModule $module)
     // check for minimum PHP version
     $phpSuccess = $utility::checkVerPhp($module);
 
-    if ($xoopsSuccess && $phpSuccess) {
-        $moduleTables = &$module->getInfo('tables');
-        foreach ($moduleTables as $table) {
-            $GLOBALS['xoopsDB']->queryF('DROP TABLE IF EXISTS ' . $GLOBALS['xoopsDB']->prefix($table) . ';');
-        }
-    }
-
     return $xoopsSuccess && $phpSuccess;
 }
 
